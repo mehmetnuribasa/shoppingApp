@@ -1,0 +1,46 @@
+eskiden  tailwind.config.js dosyasının içinde content, theme, plugin ve prefix vardı
+artık tailwindcss 4.0 da bu dosya yok.
+onun yerine bu verileri direkt index.css dosyasında kullanıyoruz.
+
+**
+css dosyasının içinde en üste @import "tailwindcss" şeklinde ekleniyor
+eskiden css dosyasında
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+şeklinde bir kullanım vardı.
+
+
+**
+artık tailwind kendisi gerekli uzantıları otomatik algılıyor o yüzden index.css dosyasının içinde content kullanılmıyor,
+
+
+**
+theme index.css içinde 
+    @theme {
+    --breakpoint-sm: 480px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 976px;
+
+    --color-primary: #ECEEFF;
+    --color-coral-red: #FF6452;
+    }
+şeklinde  kullanılıyor(screens->breakpoint, colors->color olarak adlandırılıyor atrık gibi bazı syntax değişiklikleri var)
+
+
+**
+plugin index.css dosyası içinde
+    @plugin "daisyui"
+şeklinde kullanılıyor.
+
+
+**
+prefix artık index.css'de 
+    @import "tailwindcss" prefix(tw);
+şeklinde kullanılıyor.
+
+
+
+
+
+
