@@ -1,34 +1,37 @@
 // rafce -> create the componet with file name automatically.
+import React from 'react';
+import {Hero, CustomerReviews, Footer, PopularProduct,
+Services, SpecialOffer, Subscribe, SuperQuality} from './sections';
+import Nav from './components/Nav';
 
-import React from 'react'
 
 const App = () => {
   return (
-  <main className=''>
-    Nav
-    <section className=' px-8 p-12 m-8 bg-amber-200'>
-      Hero
+  <main className='relative'>
+    <Nav />
+    <section className='xl:padding-l wide:padding-r padding-b bg-amber-200'>
+      <Hero />
     </section>
-    <section className=''>
-      PopularProducts
+    <section className='padding'>
+     < PopularProduct />
     </section>
-    <section className=''>
-      SuperQuality
+    <section className='padding'>
+      <SuperQuality />
     </section>
-    <section className=''>
-      Services
+    <section className='padding py-10'>
+      <Services />
     </section>
-    <section className=''>
-      SpecialOffer
+    <section className='padding'>
+      <SpecialOffer />
     </section>
-    <section className='bg-blue-200 padding'>
-      CustomerReviews
+    <section className='bg-pale-blue padding'>
+     < CustomerReviews />
     </section>
-    <section className=''>
-      Subscribe
+    <section className='padding-x sm:py-32 py-16 w-full'>
+     < Subscribe />
     </section>
-    <section className=''>
-      Footer
+    <section className='bg-black padding-x padding-t pb-8 text-white-400'>
+      <Footer />
     </section>
   </main>
   );

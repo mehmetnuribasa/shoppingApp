@@ -42,5 +42,10 @@ prefix artık index.css'de
 
 
 
+*****
+"rafce" cerates react arrow funct. automatically.
+
+
+
 
 
