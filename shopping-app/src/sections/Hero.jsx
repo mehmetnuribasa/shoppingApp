@@ -17,7 +17,7 @@ const Hero = () => {
 
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat text-fuchsia-600">Our Summer Collection</p>
-        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] font-bold max-sm:leading-[82]">
+        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] font-bold max-sm:leading-[82px]">
           <span className="xl:bg-white relative z-10 pr-10 xl:whitespace-nowrap">The New Product</span>
           <br />
           <span className="text-fuchsia-800 inline-block mt-5">MNB</span>
