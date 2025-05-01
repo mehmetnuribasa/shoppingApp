@@ -48,7 +48,7 @@
   }
 
   .input {
-    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-500 pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-500 max-sm:rounded-full;
+    @apply text-lg sm:flex-1 max-sm:w-full leading-normal text-slate-500 pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-500 max-sm:rounded-full;
   }
 }
 
